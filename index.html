@@ -1,1 +1,96 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b></b> Latitude</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Plots</a>
+      <a href="#about" class="w3-bar-item w3-button">Comparison</a>
+      <a href="#contact" class="w3-bar-item w3-button">Data</a>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+ <img class="w3-image" src="https://www.clicdata.com/wp-content/uploads/2018/08/data-visualization.jpg" alt="Data" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Comparisons:</b></span> <span class="w3-hide-small w3-text-light-grey">Latitude vs X</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Click any plot to get an in-depth analysis</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">vs. Max Temperature</div><br/> <br/>
+        <a href="https://github.com/cdshary/Web-Design-Challenge/blob/master/Cloudiness_link.html">
+        <img src="https://github.com/cdshary/Web-Design-Challenge/blob/master/Fig1.png?raw=true" alt="Fig1" style="width:100%"></a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">vs Humidity</div><br/><br/>
+        <img src="https://github.com/cdshary/Web-Design-Challenge/blob/master/Fig2.png?raw=true" alt="Fig2" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">vs Cloudiness</div><br/><br/>
+        <img src="https://github.com/cdshary/Web-Design-Challenge/blob/master/Fig3.png?raw=true" alt="Fig3" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">vs Windspeed</div><br/><br/>
+        <img src="https://github.com/cdshary/Web-Design-Challenge/blob/master/Fig4.png?raw=true" alt="Fig4" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+ 
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. </p>
+  </div>
+  
+      
+  </div>
+</div>
+
+
+
+
+  
+
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p><a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">© 2019 Copyright Coding Bootcamp 2019</a></p>
+</footer>
+
+</body>
+</html>
